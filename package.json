@@ -1,0 +1,45 @@
+{
+  "name": "@rvgpl/react-outside-click-handler",
+  "version": "0.1.0",
+  "description": "A helper React component for handling click events outside a specific component.",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "jsnext:main": "dist/index.es.js",
+  "repository": "https://github.com/rvgpl/react-outside-click-handler",
+  "scripts": {
+    "build": "rollup -c",
+    "start": "rollup -c -w"
+  },
+  "keywords": [
+    "react",
+    "click",
+    "outside",
+    "helper",
+    "component"
+  ],
+  "files": [
+    "dist"
+  ],
+  "author": "Ravigopal Kesari <kesariravigopal@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "prop-types": "^15.5.4",
+    "react": "^15.0.0 || ^16.0.0",
+    "react-dom": "^15.0.0 || ^16.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.2",
+    "rollup": "^0.59.1",
+    "rollup-plugin-babel": "^3.0.4",
+    "rollup-plugin-commonjs": "^9.1.3",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-peer-deps-external": "^2.1.1"
+  }
+}
