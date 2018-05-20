@@ -1,5 +1,5 @@
 {
-  "name": "@rvgpl/react-outside-click-handler",
+  "name": "react-outsideClickHandler",
   "version": "0.1.0",
   "description": "A helper React component for handling click events outside a specific component.",
   "main": "dist/index.js",
